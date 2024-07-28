@@ -98,7 +98,7 @@ namespace LearningHorizonApi.Controllers
 
                 _context.Books.Update(book);
                 await _context.SaveChangesAsync();
-                return Ok(new { message = "Book updated successfully!" });
+                return Ok(new { message = "Book has updated successfully!" });
             }
             return NotFound(new { message = "Book not found." });
         }
@@ -112,7 +112,7 @@ namespace LearningHorizonApi.Controllers
                 return NotFound($"No Book was Found with ID : {id}");
             _context.Books.Remove(book);
             _context.SaveChanges();
-            return Ok(new { message = "Book deleted successfully!" });
+            return Ok(new { message = "Book has deleted successfully!" });
 
         }
 

@@ -23,7 +23,7 @@
   <ItemGroup>
     <Folder Include="Media\Books\" />
     <Folder Include="Media\Images\" />
-    <Folder Include="Media\Videos\" />
+    <Folder Include="Media\Courses\" />
   </ItemGroup>
 
 </Project>
